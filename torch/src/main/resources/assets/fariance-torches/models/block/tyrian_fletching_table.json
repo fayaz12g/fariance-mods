@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "fariance:block/tyrian_planks",
+    "east": "fariance:block/tyrian_fletching_table_side",
+    "north": "fariance:block/tyrian_fletching_table_front",
+    "particle": "fariance:block/tyrian_fletching_table_front",
+    "south": "fariance:block/tyrian_fletching_table_front",
+    "up": "fariance:block/tyrian_fletching_table_top",
+    "west": "fariance:block/tyrian_fletching_table_side"
+  }
+}
