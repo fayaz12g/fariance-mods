@@ -1,5 +1,6 @@
-package net.purejosh.pureamethysttools.item;
+package one.fayaz.item;
 
+import net.minecraft.block.Block;
 import net.minecraft.component.type.FoodComponents;
 import net.minecraft.item.*;
 import net.minecraft.item.tooltip.TooltipType;
@@ -7,8 +8,9 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
-import net.purejosh.pureamethysttools.PureAmethystTools;
+import one.fayaz.FarianceBase;
 
+import javax.tools.Tool;
 import java.util.List;
 
 public class ModItems {
@@ -33,7 +35,7 @@ public class ModItems {
 
     public static final Item PURE_AMETHYST_HELMET = register("pure_amethyst_helmet", new ArmorItem(ModArmorMaterials.PURE_AMETHYST, ArmorItem.Type.HELMET, new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(ModArmorMaterials.PURE_AMETHYST_DURABILITY))){
         @Override
-        public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+        public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType type) {
             tooltip.add(Text.translatable("item.pureamethysttools.pure_amethyst_set_bonus"));
             tooltip.add(Text.translatable("item.pureamethysttools.pure_amethyst_set_bonus_2"));
             super.appendTooltip(stack, context, tooltip, type);
@@ -41,7 +43,7 @@ public class ModItems {
     });
     public static final Item PURE_AMETHYST_CHESTPLATE = register("pure_amethyst_chestplate", new ModArmorSetBonus(ModArmorMaterials.PURE_AMETHYST, ArmorItem.Type.CHESTPLATE, new Item.Settings().maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(ModArmorMaterials.PURE_AMETHYST_DURABILITY))){
         @Override
-        public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+        public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType type) {
             tooltip.add(Text.translatable("item.pureamethysttools.pure_amethyst_set_bonus"));
             tooltip.add(Text.translatable("item.pureamethysttools.pure_amethyst_set_bonus_2"));
             super.appendTooltip(stack, context, tooltip, type);
@@ -49,7 +51,7 @@ public class ModItems {
     });
     public static final Item PURE_AMETHYST_LEGGINGS = register("pure_amethyst_leggings", new ArmorItem(ModArmorMaterials.PURE_AMETHYST, ArmorItem.Type.LEGGINGS, new Item.Settings().maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(ModArmorMaterials.PURE_AMETHYST_DURABILITY))){
         @Override
-        public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+        public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType type) {
             tooltip.add(Text.translatable("item.pureamethysttools.pure_amethyst_set_bonus"));
             tooltip.add(Text.translatable("item.pureamethysttools.pure_amethyst_set_bonus_2"));
             super.appendTooltip(stack, context, tooltip, type);
@@ -57,7 +59,7 @@ public class ModItems {
     });
     public static final Item PURE_AMETHYST_BOOTS = register("pure_amethyst_boots", new ArmorItem(ModArmorMaterials.PURE_AMETHYST, ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(ModArmorMaterials.PURE_AMETHYST_DURABILITY))){
         @Override
-        public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+        public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType type) {
             tooltip.add(Text.translatable("item.pureamethysttools.pure_amethyst_set_bonus"));
             tooltip.add(Text.translatable("item.pureamethysttools.pure_amethyst_set_bonus_2"));
             super.appendTooltip(stack, context, tooltip, type);
@@ -77,7 +79,7 @@ public class ModItems {
 
     // Helper method for registering an item.
     public static Item register(String id, Item item) {
-        return Registry.register(Registries.ITEM, Identifier.of(PureAmethystTools.MOD_ID, id), item);
+        return Registry.register(Registries.ITEM, Identifier.of(FarianceBase.MOD_ID, id), item);
     }
 
     // Class initializer called from the entrypoint.

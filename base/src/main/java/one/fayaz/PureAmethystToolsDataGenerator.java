@@ -1,8 +1,8 @@
-package net.purejosh.pureamethysttools;
+package one.fayaz;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
-import net.purejosh.pureamethysttools.datagen.*;
+import one.fayaz.datagen.*;
 
 public class PureAmethystToolsDataGenerator implements DataGeneratorEntrypoint {
 	@Override

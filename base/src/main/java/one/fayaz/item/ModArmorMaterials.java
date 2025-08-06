@@ -1,4 +1,4 @@
-    package net.purejosh.pureamethysttools.item;
+package one.fayaz.item;
 
     import net.minecraft.item.ArmorItem;
     import net.minecraft.item.ArmorMaterial;

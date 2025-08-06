@@ -1,4 +1,4 @@
-package net.purejosh.pureamethysttools;
+package one.fayaz;
 
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.util.Identifier;

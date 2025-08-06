@@ -1,4 +1,4 @@
-package net.purejosh.pureamethysttools.entity.effect;
+package one.fayaz.entity.effect;
 
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffect;
@@ -8,7 +8,7 @@ import net.minecraft.particle.ParticleTypes;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
-import net.purejosh.pureamethysttools.world.ModGameRules;
+import one.fayaz.world.ModGameRules;
 
 import java.util.HashMap;
 import java.util.Map;

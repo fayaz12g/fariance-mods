@@ -1,4 +1,4 @@
-package net.purejosh.pureamethysttools.world;
+package one.fayaz.world;
 
 import net.fabricmc.fabric.api.gamerule.v1.GameRuleFactory;
 import net.fabricmc.fabric.api.gamerule.v1.GameRuleRegistry;

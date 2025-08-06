@@ -1,4 +1,4 @@
-package net.purejosh.pureamethysttools.item;
+package one.fayaz.item;
 
 import com.google.common.base.Suppliers;
 import net.minecraft.block.Block;

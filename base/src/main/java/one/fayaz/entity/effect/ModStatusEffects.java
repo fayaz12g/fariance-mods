@@ -1,4 +1,4 @@
-package net.purejosh.pureamethysttools.entity.effect;
+package one.fayaz.entity.effect;
 
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectCategory;
@@ -6,7 +6,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.util.Identifier;
-import net.purejosh.pureamethysttools.PureAmethystTools;
+import one.fayaz.FarianceBase;
 
 public class ModStatusEffects {
 
@@ -16,6 +16,6 @@ public class ModStatusEffects {
     }
 
     private static RegistryEntry<StatusEffect> register(String id, StatusEffect statusEffect) {
-        return Registry.registerReference(Registries.STATUS_EFFECT, Identifier.of(PureAmethystTools.MOD_ID, id), statusEffect);
+        return Registry.registerReference(Registries.STATUS_EFFECT, Identifier.of(FarianceBase.MOD_ID, id), statusEffect);
     }
 }

@@ -1,4 +1,4 @@
-package net.purejosh.pureamethysttools.item;
+package one.fayaz.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.Blocks;

@@ -1,4 +1,4 @@
-package net.purejosh.pureamethysttools.item;
+package one.fayaz.item;
 
 import com.google.common.collect.ImmutableMap;
 import net.minecraft.entity.Entity;
