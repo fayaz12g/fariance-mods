@@ -1,4 +1,4 @@
-package one.fayaz.mixin;
+package net.purejosh.pureamethysttools.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

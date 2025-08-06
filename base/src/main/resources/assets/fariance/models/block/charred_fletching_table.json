@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "fariance:block/charred_planks",
+    "east": "fariance:block/charred_fletching_table_side",
+    "north": "fariance:block/charred_fletching_table_front",
+    "particle": "fariance:block/charred_fletching_table_front",
+    "south": "fariance:block/charred_fletching_table_front",
+    "up": "fariance:block/charred_fletching_table_top",
+    "west": "fariance:block/charred_fletching_table_side"
+  }
+}
